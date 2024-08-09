@@ -2,6 +2,8 @@
     "name": "pet_project",
     "version": "0.1.0",
     "private": true,
+    "main": "index.tsx",
+    "homepage": "https://github.com/Tatiana190389/News_Feed",
     "dependencies": {
         "@emotion/react": "^11.13.0",
         "@emotion/styled": "^11.13.0",
@@ -33,7 +35,8 @@
         "start": "env-cmd -f .env react-scripts start",
         "build:production": "env-cmd -f .env react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "deploy": "gh-pages -b master -d build"
     },
     "eslintConfig": {
         "extends": [
@@ -52,5 +55,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
     }
 }
