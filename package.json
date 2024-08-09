@@ -2,7 +2,7 @@
     "name": "pet_project",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://tatiana190389.github.io/News_Feed/",
+    "homepage": "https://tatiana190389.github.io/News_Feed",
     "type": "module",
     "dependencies": {
         "@emotion/react": "^11.13.0",

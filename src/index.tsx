@@ -8,7 +8,7 @@ import NewsCardsList from './Components/NewsCardsList/NewsCardsList';
 
 const router = createBrowserRouter([
     {
-        path: '/News_Feed/',
+        path: '/News_Feed',
         element: <App />,
         children: [{ index: true, element: <NewsCardsList /> }],
     },
