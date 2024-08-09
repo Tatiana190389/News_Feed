@@ -35,7 +35,7 @@
         "dev": "vite",
         "predeploy": "npm run build:prod",
         "deploy": "gh-pages -d dist",
-        "start": "env-cmd -f .env  vite",
+        "start": "env-cmd -f .env.prod  vite",
         "build:prod": "env-cmd -f .env.prod vite build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
